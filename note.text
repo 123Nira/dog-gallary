@@ -1,0 +1,8 @@
+// a function which is responsible to fetch data from server and pass it to parseJsonResponse() function
+
+  // we are using fetch api to make rest api calls. you can use axios .
+    // we are also using promises here.
+      // we get raw response. need to first convert it into json format so we can use the data easily
+       // if any error occurs like no internet connection then this callback will be called
+           // we need only breed names from this object which are actually all the keys of this object
+    // so we can use Object.keys(object) function to get a list of all the keys in this object
